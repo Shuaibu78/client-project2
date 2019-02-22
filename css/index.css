@@ -47,6 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+@media only screen and (max-width: 500px) {
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+}
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
