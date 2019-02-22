@@ -28,6 +28,41 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
 body {
 	line-height: 1;
 }
@@ -71,15 +106,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container,body {
+.container,
+body {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
 }
 
-* {
-    box-sizing: border-box;
-  }
 	/* navigation */
 .main-nav{
 	display: inline-block;
@@ -116,7 +149,7 @@ h1, h2, h3, h4, h5 {
 	padding-left: 80px;
 }
 
-@media only screen and (max-width: 500px) {
+	@media (max-width:500px) {
   .main-nav{
     float: none;
     width: 100%;
@@ -153,7 +186,7 @@ button{
 	.Image{
 		padding-left: 6%;
 	}
-@media only screen and (max-width: 500px) {
+@media (max-width:500px) {
 	.header{
 		width: 100%;
 		text-align: center;
@@ -194,7 +227,7 @@ button{
 	float: right;
 }
 
-@media only screen and (max-width: 500px) {
+@media (max-width:500px) {
 	.content{
     float: none;
     width: 100%;
@@ -243,7 +276,7 @@ button{
 	text-align: left;
 }
 
-@media only screen and (max-width: 500px) {
+@media (max-width:500px) {
 	.contents{
     float: none;
     width: 100%;
@@ -264,7 +297,8 @@ button{
 	.Vision{
 		width: 94%;
 		text-align: left;
-		padding-top: 6%;	}
+		padding-top: 6%;
+	}
 }
 
 
@@ -276,7 +310,7 @@ footer{
 	text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media (max-width:500px) {
 	.Contact{
 		text-align: center;
 	}
