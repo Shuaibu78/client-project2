@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5 {
 	padding-left: 80px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
   .main-nav{
     float: none;
     display: block;
@@ -143,8 +143,10 @@ button{
 	background-color: transparent;
 	border: 1px solid black;
 }
-
-@media screen and (max-width: 500px) {
+	.Image{
+		padding-left: 6%;
+	}
+@media screen and (min-width: 500px) {
 	.header{
 		display: block;
 		width: 100%;
@@ -186,7 +188,7 @@ button{
 	float: right;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
 	.content{
     float: none;
     width: 100%;
@@ -271,7 +273,7 @@ footer{
 	text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
 	.Contact{
 		text-align: center;
 	}
