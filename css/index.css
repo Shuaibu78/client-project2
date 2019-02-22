@@ -111,7 +111,6 @@ h1, h2, h3, h4, h5 {
 
 @media (max-width: 500px) {
   .main-nav{
-		max-width: 500px;
     float: none;
     display: block;
     width: 100%;
@@ -154,14 +153,12 @@ button{
 	}
 
 	.img{
-		max-width: 500px;
 		width: 100%;
 	}
 	.img img{
 		margin-left: 8%;
 	}
 	.Image{
-		max-width: 500px;
 		width:94%;
 		padding-left: 4%;
 	}
@@ -191,7 +188,6 @@ button{
 
 @media (max-width: 500px) {
 	.content{
-		max-width: 500px;
     float: none;
     width: 100%;
     text-align: center;
@@ -241,7 +237,6 @@ button{
 
 @media (max-width: 500px) {
 	.contents{
-		max-width: 500px;
     float: none;
     width: 100%;
     text-align: center;
