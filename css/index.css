@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5 {
 	padding-left: 80px;
 }
 
-@media screen and (min-width: 500px) {
+@media only screen and (max-width: 768px) {
   .main-nav{
     float: none;
     display: block;
@@ -146,7 +146,7 @@ button{
 	.Image{
 		padding-left: 6%;
 	}
-@media screen and (min-width: 500px) {
+@media only screen and (max-width: 768px) {
 	.header{
 		display: block;
 		width: 100%;
@@ -188,7 +188,7 @@ button{
 	float: right;
 }
 
-@media screen and (min-width: 500px) {
+@media only screen and (max-width: 768px) {
 	.content{
     float: none;
     width: 100%;
@@ -237,7 +237,7 @@ button{
 	text-align: left;
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
 	.contents{
     float: none;
     width: 100%;
@@ -261,9 +261,6 @@ button{
 		padding-top: 6%;	}
 }
 
-.Image{
-margin: 0 auto;
-}
 
 .Contact{
 	margin-bottom: 5%;
@@ -273,7 +270,7 @@ footer{
 	text-align: center;
 }
 
-@media screen and (min-width: 500px) {
+@media only screen and (max-width: 768px) {
 	.Contact{
 		text-align: center;
 	}
