@@ -144,8 +144,6 @@ body {
 
 	@media (max-width:500px) {
   .main-nav{
-		display: inline-block;
-    float: none;
     width: 100%;
     text-align: center;
 		overflow: hidden;
@@ -153,6 +151,9 @@ body {
 	.main-nav a{
 		width: 94%;
 		margin: 10px 5px;
+	}
+	.logo{
+		padding-left: 10%;
 	}
 }
 .head{
